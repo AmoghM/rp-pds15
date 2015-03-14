@@ -1,5 +1,6 @@
-# Week 8: Getting Started
-## Professor Robert J. Brunner  
+# Week 8: Data Intensive Computing
+## Professor Robert J. Brunner 
+## Getting Started
 
 This week we will explore high performance computing with Python, including the use of cloud computing and Hadoop Streaming. To accomplish this, you should perform these operations prior to the start of class.
 
@@ -28,17 +29,28 @@ Note that the container will run, but not provide you with a prompt. Instead you
 When this command is run you will be presented with a long URL in the terminal window, as shown in the figure below. You need to copy this URL, open a Web browser window, and paste this URL into the Web browser.
 ![Google Cloud SDK Authentication](images/google-csdk.png)
 At this point, Google will ask you to indicate which account to use. If you have multiple accounts, they will be listed (for example, if multiple people have logged in to Google on your computer). Otherwise, you will be presented with your primary account. For me this is professor.brunner@gmail.com as shown below.
+
 ![Google Sign in to Account](images/google-account.png)
+
 Note, you might be asked to perform a two-step verification, such as enter a code that is texted to your primary phone. For example, in the following image, I was asked for the code that was sent to my phone listed with my Google account.
+
 ![Google Two-Step Verification](images/google-2step.png)
+
 Once you have signed in to your Google account, you will be asked to allow the Google Cloud SDK to have access to your information, the start of the page is shown below. Scroll to the bottom of this page and (assuming you are OK with this) click `Accept`. 
+
 ![Google Permissions](images/google-permit.png)
+
 You will now be presented with the Google verification code on an otherwise empty Webpage. For example, my verification code Webpage is shown below.
+
 ![Google Verification Code](images/google-code.png)
+
 Copy this code and switch back to your running Google Cloud SDK Docker container. Paste the code into the space following the prompt, as shown below, and hit 'return'.
+
 ![Google Docker Verify](images/google-verify.png)
-At this point you have successfully assigned your credentials to the Google Cloud SDK. 
-At this point you should have a working Google Cloud SDK Docker container. We can reuse this container (you might need to reauthorize it if the boot2docker virtual machine is restarted) in class to connect to a running Virtual Machine in the Google cloud.
+
+At this point you have successfully assigned your credentials to the Google Cloud SDK and you should have a working Google Cloud SDK Docker container, as shown in the following screenshot. We can reuse this container (you might need to reauthorize it if the boot2docker virtual machine is restarted) in class to connect to a running Virtual Machine in the Google cloud.
+
+![Google Docker Success](images/google-success.png)
 
 -----
 
