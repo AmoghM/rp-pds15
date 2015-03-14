@@ -44,9 +44,7 @@ You will now be presented with the Google verification code on an otherwise empt
 
 ![Google Verification Code](images/google-code.png)
 
-Copy this code and switch back to your running Google Cloud SDK Docker container. Paste the code into the space following the prompt, as shown below, and hit 'return'.
-
-![Google Docker Verify](images/google-verify.png)
+Copy this code and switch back to your running Google Cloud SDK Docker container. Paste the code into the space following the prompt and hit 'return'.
 
 At this point you have successfully assigned your credentials to the Google Cloud SDK and you should have a working Google Cloud SDK Docker container, as shown in the following screenshot. We can reuse this container (you might need to reauthorize it if the boot2docker virtual machine is restarted) in class to connect to a running Virtual Machine in the Google cloud.
 
